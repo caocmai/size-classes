@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WWA-uk-nhQ">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="3Hh-QH-Uny">
+            <objects>
+                <viewController id="WWA-uk-nhQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bwp-EJ-g0t">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lHh-j7-WvP">
+                                <rect key="frame" x="60" y="0.0" width="776" height="393"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dom-Ib-uUY">
+                                        <rect key="frame" x="0.0" y="0.0" width="776" height="196.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Cr-YC-JOk">
+                                                <rect key="frame" x="0.0" y="0.0" width="388" height="196.5"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xC0-GJ-G1P">
+                                                <rect key="frame" x="388" y="0.0" width="388" height="196.5"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Hg1-rS-nUT">
+                                        <rect key="frame" x="0.0" y="196.5" width="776" height="196.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MWS-MA-SqB">
+                                                <rect key="frame" x="0.0" y="0.0" width="388" height="196.5"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hxn-hZ-8RK">
+                                                <rect key="frame" x="388" y="0.0" width="388" height="196.5"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lHh-j7-WvP" firstAttribute="top" secondItem="DGh-Ir-1R3" secondAttribute="top" id="V6d-ct-6KY"/>
+                            <constraint firstItem="lHh-j7-WvP" firstAttribute="leading" secondItem="bwp-EJ-g0t" secondAttribute="leadingMargin" id="aYd-v5-HIx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lHh-j7-WvP" secondAttribute="trailing" id="nNV-ow-s3T"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="lHh-j7-WvP" secondAttribute="bottom" id="rBb-xL-oNv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DGh-Ir-1R3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lrf-0N-Ygt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433.33333333333337" y="9.375"/>
+        </scene>
+    </scenes>
+</document>
